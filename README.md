@@ -50,8 +50,7 @@ After performing oversampling using SMOTE analysis, the RandomForestClassifier a
 
 - Precision Score: 0.9997818776697265
 - Accuracy Score: 0.9998909844107707
-  
-_- Recall Score: 1.00_
+- Recall Score: 1.00
 - F1 Score: 0.9998909269392281
 
 After implementing the Random Forest algorithm and performing the hybrid undersampling-SMOTE analysis, we achieved a _100% recall value_, indicating that our model successfully identified all instances of fraudulent transactions without missing any. The recall score, which measures the ability of the model to correctly identify all instances of fraudulent transactions, stands out as particularly noteworthy. With a perfect recall score of 1.0, the model successfully detected every fraudulent transaction in the dataset, demonstrating its exceptional sensitivity to identifying fraudulent activities. This is crucial in fraud detection scenarios where missing even a single fraudulent transaction can have significant financial implications.
