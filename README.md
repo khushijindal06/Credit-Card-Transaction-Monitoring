@@ -65,6 +65,6 @@ The Precision-Recall curve plots precision (positive predictive value) against r
 
 By evaluating the model's performance using AUPRC, we can better assess its effectiveness in distinguishing between fraudulent and legitimate transactions, considering the inherent class imbalance in the dataset. This metric offers a more nuanced understanding of the model's ability to detect fraudulent activities while minimizing false positives.
 
-<img width="504" alt="image" src="https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/db2a9a8e-f53e-4b07-b505-3bf3145d7775">
+<img width="704" alt="image" src="https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/db2a9a8e-f53e-4b07-b505-3bf3145d7775">
 
 
