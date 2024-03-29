@@ -28,9 +28,12 @@ The dataset we have used is downloaded from Kaggle. The dataset comprises transa
 ## 5) Solution Approach: 
 In this project, we explored multiple machine learning algorithms for fraud detection:
 
-Logistic Regression: A baseline algorithm for binary classification tasks. It models the probability of a certain class or event occurring.
-Decision Trees: A tree-structured model where internal nodes represent features, branches represent decisions, and leaf nodes represent outcomes. It's a powerful tool for classification tasks.
-Random Forest: An ensemble learning method based on decision trees. It builds multiple decision trees and merges their predictions to improve accuracy and reduce overfitting.
+#### Logistic Regression: 
+A baseline algorithm for binary classification tasks. It models the probability of a certain class or event occurring.
+#### Decision Trees: 
+A tree-structured model where internal nodes represent features, branches represent decisions, and leaf nodes represent outcomes. It's a powerful tool for classification tasks.
+#### Random Forest: 
+An ensemble learning method based on decision trees. It builds multiple decision trees and merges their predictions to improve accuracy and reduce overfitting.
 
 ## 6) Handling of Imbalanced dataset:
 Imbalanced datasets pose a challenge for machine learning models as they tend to bias towards the majority class. In our dataset, fraudulent transactions represent a minority class, making the model prone to overlooking them.
