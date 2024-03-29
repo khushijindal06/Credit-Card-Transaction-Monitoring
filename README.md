@@ -55,3 +55,5 @@ After performing oversampling using SMOTE analysis, the RandomForestClassifier a
 
 After implementing the Random Forest algorithm and performing the hybrid undersampling-SMOTE analysis, we achieved a _100% recall value_, indicating that our model successfully identified all instances of fraudulent transactions without missing any. The recall score, which measures the ability of the model to correctly identify all instances of fraudulent transactions, stands out as particularly noteworthy. With a perfect recall score of 1.0, the model successfully detected every fraudulent transaction in the dataset, demonstrating its exceptional sensitivity to identifying fraudulent activities. This is crucial in fraud detection scenarios where missing even a single fraudulent transaction can have significant financial implications.
 
+![image](https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/d6f56814-67c7-421f-aa38-1968cf0dbd31)
+
