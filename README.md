@@ -50,6 +50,7 @@ After performing oversampling using SMOTE analysis, the RandomForestClassifier a
 
 - Precision Score: 0.9997818776697265
 - Accuracy Score: 0.9998909844107707
+  
 _- Recall Score: 1.00_
 - F1 Score: 0.9998909269392281
 
