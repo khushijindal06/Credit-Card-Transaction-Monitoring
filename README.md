@@ -1,4 +1,4 @@
 # Credit-Card-Transaction-Monitoring
-1. Introduction:
+#1. Introduction:
 The Credit Card Fraud Detection project aims to create a powerful machine-learning model capable of detecting fraudulent credit card transactions. Within machine learning, the field of "Anomaly Detection" includes credit card fraud detection. For financial institutions as well as individuals, credit card fraud represents a major financial risk. This project uses the Random Forest algorithm, a potent machine-learning method well-known for its efficiency in classification tasks, to solve this problem. The main objective is to develop a prediction model that minimizes false positives and can detect fraudulent transactions with accuracy.
 Credit card fraud poses a significant threat to both financial institutions and cardholders. As technology advances, so do the methods employed by fraudsters. Credit card fraud detection has become a crucial application of data science and machine learning. The goal is to identify and prevent unauthorized or fraudulent transactions in real-time, minimizing financial losses and ensuring the security of financial systems.
