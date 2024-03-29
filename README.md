@@ -55,5 +55,15 @@ After performing oversampling using SMOTE analysis, the RandomForestClassifier a
 
 After implementing the Random Forest algorithm and performing the hybrid undersampling-SMOTE analysis, we achieved a _100% recall value_, indicating that our model successfully identified all instances of fraudulent transactions without missing any. The recall score, which measures the ability of the model to correctly identify all instances of fraudulent transactions, stands out as particularly noteworthy. With a perfect recall score of 1.0, the model successfully detected every fraudulent transaction in the dataset, demonstrating its exceptional sensitivity to identifying fraudulent activities. This is crucial in fraud detection scenarios where missing even a single fraudulent transaction can have significant financial implications.
 
-![image](https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/d6f56814-67c7-421f-aa38-1968cf0dbd31)
+![image](https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/61a56995-0679-41bb-a956-5a5f55348a55)
+
+## 7) Evaluation Metrics:
+While traditional metrics like accuracy, precision, recall, and F1-score provide valuable insights into the model's performance, they might not adequately capture the effectiveness of the model, especially in the context of imbalanced datasets. Given the class imbalance ratio present in our dataset, we recommend using the Area Under the Precision-Recall Curve (AUPRC) as a more appropriate measure of accuracy.
+
+#### Area Under the Precision-Recall Curve (AUPRC):
+The Precision-Recall curve plots precision (positive predictive value) against recall (true positive rate) for different probability thresholds. AUPRC calculates the area under this curve, providing a comprehensive measure of the model's ability to rank positive instances (fraudulent transactions) higher than negative instances (legitimate transactions). A higher AUPRC score indicates better performance, particularly in scenarios where the class distribution is highly imbalanced.
+
+By evaluating the model's performance using AUPRC, we can better assess its effectiveness in distinguishing between fraudulent and legitimate transactions, considering the inherent class imbalance in the dataset. This metric offers a more nuanced understanding of the model's ability to detect fraudulent activities while minimizing false positives.
+
+<img width="377" alt="image" src="https://github.com/khushijindal06/Credit-Card-Transaction-Monitoring/assets/84064758/742d5b19-ca04-4f95-9f5e-b2aeb56676cc">
 
